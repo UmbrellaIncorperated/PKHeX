@@ -13,6 +13,7 @@ public sealed class LegalitySettings
     public GameSpecificSettings Game { get; set; } = new();
     public HandlerSettings Handler { get; set; } = new();
     public HOMETransferSettings HOMETransfer { get; set; } = new();
+    public LumioseRngSettings LumioseRNG { get; set; } = new();
     public NicknameSettings Nickname { get; set; } = new();
     public TradebackSettings Tradeback { get; set; } = new();
     public WordFilterSettings WordFilter { get; set; } = new();
